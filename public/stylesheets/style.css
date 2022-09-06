@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+
+}
+.todo{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task{
+  height:80vh;
+  width: 30vw;
+  background-color:grey;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.ri-delete-bin-5-fill{
+  font-size: 20px;
+  color: black;
+  
+}
+a{
+  text-decoration: none;
+}
+#tasklist{
+  margin-left: -290px;
+}
+.item{
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 20px;
+  height: 6vh;
+  width: 27vw;
+  background-color: white;
+}
+.search{
+  position: fixed;
+  top:82vh;
+  height: 6vh;
+  width: 29vw;
+  display: flex;
+  justify-content: space-around;
+}
+.input{
+  height: 100%;
+  width:80%;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+.add{
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 200;
+  background-color: white;
+  border: none;
+}
