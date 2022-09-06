@@ -19,7 +19,9 @@ html,body{
 .task{
   height:80vh;
   width: 30vw;
-  background-color:grey;
+  background-color:black;
+  color: white;
+  padding: 12px;
   text-align: center;
   border-radius: 5px;
   
@@ -34,6 +36,7 @@ a{
 }
 #tasklist{
   margin-left: -290px;
+  color: black;
 }
 .item{
   display: flex;
