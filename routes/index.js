@@ -11,7 +11,7 @@ router.get('/',function(req, res) {
 });
 router.post('/todo',function(req, res) {
    userModel.create({
-    task:req.body.task
+    task:req.body.task.trim()
   })
   .then(function (item){
 res.redirect('/')

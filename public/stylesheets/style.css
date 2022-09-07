@@ -18,12 +18,12 @@ html,body{
 }
 .task{
   height:80vh;
-  width: 30vw;
+  width: 31.5vw;
   background-color:black;
   color: white;
-  padding: 12px;
   text-align: center;
   border-radius: 5px;
+  overflow-y: auto;
   
 }
 .ri-delete-bin-5-fill{
@@ -35,8 +35,13 @@ a{
   text-decoration: none;
 }
 #tasklist{
-  margin-left: -290px;
+  margin-left: -10px;
   color: black;
+  width: 340px;
+  padding-left: 10px;
+  text-align: left;
+  /* background-color: aqua; */
+  word-break: break-all;
 }
 .item{
   display: flex;
@@ -45,7 +50,7 @@ a{
   justify-content: space-between;
   padding: 15px;
   margin: 20px;
-  height: 6vh;
+  /* height: 6vh; */
   width: 27vw;
   background-color: white;
 }
